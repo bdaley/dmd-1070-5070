@@ -7,11 +7,16 @@ export default defineConfig({
 	base: '/dmd-1070-5070/',
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'DMD 1070/5070',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/bdaley/dmd-1070-5070',
+				twitter: 'https://twitter.com/uconnwebprof',
 			},
 			sidebar: [
+				{
+					label: 'Getting Started',
+					autogenerate: { directory: 'getting-started'}
+				},
 				{
 					label: 'Guides',
 					items: [

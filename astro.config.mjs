@@ -3,6 +3,8 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: "https://bdaley.github.io",
+	base: '/dmd-1070-5070/',
 	integrations: [
 		starlight({
 			title: 'My Docs',
